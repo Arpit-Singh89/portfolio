@@ -1,0 +1,630 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  display: flex; 
+  align-items: center; 
+  font-family: sans-serif;
+  cursor: pointer;
+  position: fixed;
+  z-index: 999;
+  width: 98%;
+  color: black;
+  border: 1px white;
+  background-color: white;
+}
+
+.head h1 {
+  font-weight: bold;
+  margin: 5px;
+  padding: 0;
+  font-size: 3rem;
+  margin-left: 145px;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto; /* Push menu to the right */
+  margin-right: 20px;
+  width: 30%; /* Make menu take up 50% of the available space */
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.menu ul li {
+  margin-left: 11.5px; /* Adjust space between menu items */
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.menu ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent */
+  border: 1px solid black;
+  padding: 10px 20px; /* Adjust padding for a closer appearance */
+  margin-left: 12.5px; /* Remove right margin */
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+}
+
+.menu ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.main {
+  border: 1px solid black;
+  padding: 28px;
+  margin: 10px auto;
+  width: calc(100% - 294px); 
+  background-color: black;
+  color: white;
+  height: 680px;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  border-radius: 4px;
+  
+
+}
+
+.main-container{
+  height: 10rem;
+  margin-top: 23%;
+
+  
+}
+
+.main h1 {
+  font-size: 3rem;
+  
+  height: 6px;
+  
+  margin: 5rem auto ;
+  
+}
+.main h2{
+  font-size: 2rem;
+  margin: 1rem auto ;
+
+}
+.p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+
+.image-container {
+  text-align: center;
+    border: 2px solid black;
+    width: 1227px;
+    margin: 29px auto;
+    box-sizing: border-box;
+    height: 295px;
+    background-color: black;
+    color: white;
+    margin-top: -45px;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+
+.reach {
+  margin-top: 57px;
+  margin-bottom: -8px;
+  
+}
+
+
+
+
+.image-container img {
+  display: block; 
+  margin: 0 auto; 
+  color: white;
+}
+
+.par {
+  font-size: 1.5rem;
+  margin-left: 6px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.pro {
+  border: 1px solid black;
+    padding: 13px;
+    box-sizing: border-box;
+    width: 200px;
+    height: auto;
+    margin: 21px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.pro ul {
+  padding: 0; /* Reset padding for the ul, if needed */
+  text-decoration: none;
+  list-style: none;
+}
+
+.pro ul li {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.pro ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  margin-right: 20px;
+}
+
+.app ul li a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.hub {
+  border: 1px solid black;
+  width: 402px;
+  display: flex;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 145.5px;
+  justify-content: center;
+  background-color: black;
+  margin-top: -27px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.hub a{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.hub a:hover {
+  color: aqua;
+}
+
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  width: 427px;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-left: 550px;
+  margin-top: -88.3px;
+  background-color: black;
+  justify-content: center;
+  font-family: sans-serif;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.link a:hover {
+  color: aqua;
+}
+
+.link a{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.twi {
+  border: 1px solid black;
+  width: 393px;
+  display: flex;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-left: 941px;
+  justify-content: center;
+  background-color: black;
+  margin-top: -88.3px;
+  font-weight: bold;
+  border-radius: 4px;
+  font-family: sans-serif;
+  margin-left: 981px;
+
+}
+
+.twi a{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.twi a:hover {
+  color: aqua;
+}
+
+.mail {
+  border: 1px solid black;
+  margin-left: 143px;
+  margin-right: 143px;
+  margin-top: 2px;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 4px;
+  padding: 30px;
+
+}
+
+.mail p{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mail a {
+  display: flex; /* Enable flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  list-style: none; /* Remove list style */
+  text-decoration: none; /* Remove underline */
+  padding: 10px; /* Optional: Add some padding for better spacing */
+  font-size: 1.5rem;
+  margin-top: 0px;
+  color: white;
+}
+
+.mail a:hover {
+  color: blue;
+}
+
+.navi-section{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 25px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin-left: 142px;
+    margin-right: 142px;
+    margin-top: 2px;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+
+.navi {
+  display: flex;
+  flex-direction: column;
+    margin-top: -60px;
+}
+
+.navi p {
+  margin-bottom: 5px; /* Space between the paragraph and list */
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.navi ul {
+  padding: 0; /* Remove default padding */
+}
+
+.navi ul li {
+  display: flex;
+  margin-top: 10px; /* Space between list items */
+  list-style: none; /* Remove default list style */
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.navi a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Set text color */
+}
+
+.navi a:hover {
+  color: aqua; /* Change text color on hover */
+}
+
+
+.home p{
+  margin-left: 13px;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.home{
+  margin-left: 22rem;
+    margin-right: 23rem;
+    margin-top: -15px;
+
+}
+
+.home ul {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.home ul li{
+  list-style: none;
+  text-decoration: none;  
+  margin-right: 55px;
+  padding: 4px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+
+.home a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.home a:hover{
+  color: aqua;
+}
+
+.arpit{
+
+    margin-top: -137px;
+
+}
+
+.arpit p{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 8px auto;
+  
+}
+
+.arpit ul li{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  
+}
+
+.arpit a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin-top: -30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.arpit a:hover{
+  color: aqua;
+}
+
+.copy {
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-left: 142px;
+  margin-right: 140px;
+  margin-top: -18px;
+  font-family: sans-serif;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.copy a {
+  text-decoration: none;
+  color: white;
+}
+
+
+ main .about h1{
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 18px;
+    margin-left: 143px;
+    margin-right: 143px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top:5px ;
+    text-align: center;
+
+
+}
+
+
+
+.about p{
+  margin-left: 143px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 21px;
+  margin-bottom: 10px;
+}
+
+.about h2{
+  font-family: sans-serif;
+  margin-left: 143px;
+  margin-top: 20px;
+}
+
+ hr {
+  margin-left: 138px;
+  width: 82%;
+}
+
+
+.about-p{
+  margin-bottom: 16px;
+  margin-top: 95px;
+  
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  border: 1px solid black;
+  margin-left: 143px;
+  margin-right: 143px;
+  text-align: center;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+.text{
+  width: 40.5%;
+}
+
+.submit {
+  width: 94%;
+  background-color: black;
+  color: white; 
+  border: none; 
+  padding: 10px; 
+  cursor: pointer; 
+  border: 1px solid black;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submit:hover {
+  background-color: white;
+  color: black; 
+}
+
+.form-connect{
+  display: flex;
+  justify-content:left;
+  align-items:center;
+  margin: 25px auto;
+
+}
+.form-connect .form-1{
+  margin-left: 125px;
+    width: 40%;
+    padding: 10px 15px;
+    border-right: 1px solid rgb(184, 184, 184);
+
+}
+
+input {
+  padding: 10px;
+  width: 47%;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.form-connect textarea {
+  width: 94.5%; 
+  height: 150px; 
+  padding: 10px; 
+  font-size: 1rem; 
+  border-radius: 4px;
+  
+  resize: vertical; 
+  box-sizing: border-box; 
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.form-connect textarea:focus {
+  border-color: #000; /* Change border color when focused */
+  outline: none; /* Remove default outline */
+}
+
+
+
+.connect {
+  padding-left: 30px;
+  font-family: sans-serif;
+  margin-left: 725px;
+  margin-top: -418px;
+  position: absolute;
+width: 50%;
+}
+
+
+
+.connect ul {
+  display: flex;
+  padding: 84px;
+    margin: -88px;
+    gap: 11px;
+    margin-top: -88px;
+  
+}
+
+.connect ul li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin-right: 20px; 
+  margin-right: 20px;
+}
+
+.connect ul li:last-child {
+  margin-right: 0;
+  margin-top: -2px;
+}
+
+.to {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.to:hover {
+  color: darkorchid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
