@@ -60,6 +60,7 @@
 .menu ul li a:hover {
   background-color: white;
   color: black;
+  transition: .4s;
 }
 
 .main {
@@ -498,11 +499,6 @@
   border-radius: 4px;
 }
 
-
-
-
-
-
 .text{
   width: 40.5%;
 }
@@ -567,7 +563,6 @@ input {
 }
 
 
-
 .connect {
   padding-left: 30px;
   font-family: sans-serif;
@@ -576,7 +571,6 @@ input {
   position: absolute;
 width: 50%;
 }
-
 
 
 .connect ul {
@@ -612,6 +606,18 @@ width: 50%;
 
 .to:hover {
   color: darkorchid;
+}
+
+@media (max-width: 900px) {
+  .menu {
+    width: 100%;
+    text-align: left;
+  }
+
+  .menu ul {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 
